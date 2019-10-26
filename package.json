@@ -1,0 +1,30 @@
+{
+  "name": "gdesummit2019",
+  "version": "1.0.0",
+  "description": "Demo for GDESummit2019",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -e ts src --exec ts-node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashokvishwakarma/gdesummit2019.git"
+  },
+  "author": "Ashok Vishwakarma <akvlko@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashokvishwakarma/gdesummit2019/issues"
+  },
+  "homepage": "https://github.com/ashokvishwakarma/gdesummit2019#readme",
+  "devDependencies": {
+    "@types/google-protobuf": "^3.2.7",
+    "@types/node": "^12.0.2",
+    "nodemon": "^1.19.1",
+    "ts-node": "^8.1.0",
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "dgraph-orm": "^1.2.5"
+  }
+}
